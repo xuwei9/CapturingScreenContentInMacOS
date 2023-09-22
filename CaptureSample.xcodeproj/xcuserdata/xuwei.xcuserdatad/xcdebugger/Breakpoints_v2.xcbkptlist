@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "533BA461-4F7A-46F8-A467-7175D82757ED"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "528C5424-CE5C-470B-81CE-530C4A884FC2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CaptureSample/CaptureEngine.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "createFrame(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "528C5424-CE5C-470B-81CE-530C4A884FC2 - 71b0c68a51be32c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CaptureSample.CaptureEngineStreamOutput.createFrame(for: __C.CMSampleBufferRef) -&gt; Swift.Optional&lt;CaptureSample.CapturedFrame&gt;"
+                  moduleName = "CaptureSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xuwei/work/mycode/CapturingScreenContentInMacOS/CaptureSample/CaptureEngine.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "157"
+                  endingLineNumber = "157"
+                  offsetFromSymbolStart = "1898">
+               </Location>
+               <Location
+                  uuid = "528C5424-CE5C-470B-81CE-530C4A884FC2 - 71b0c68a51be3285"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CaptureSample.CaptureEngineStreamOutput.createFrame(for: __C.CMSampleBufferRef) -&gt; Swift.Optional&lt;CaptureSample.CapturedFrame&gt;"
+                  moduleName = "CaptureSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xuwei/work/mycode/CapturingScreenContentInMacOS/CaptureSample/CaptureEngine.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "1736">
+               </Location>
+               <Location
+                  uuid = "528C5424-CE5C-470B-81CE-530C4A884FC2 - 71b0c68a51be3301"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CaptureSample.CaptureEngineStreamOutput.createFrame(for: __C.CMSampleBufferRef) -&gt; Swift.Optional&lt;CaptureSample.CapturedFrame&gt;"
+                  moduleName = "CaptureSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xuwei/work/mycode/CapturingScreenContentInMacOS/CaptureSample/CaptureEngine.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "159"
+                  endingLineNumber = "159"
+                  offsetFromSymbolStart = "1942">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B7970AA9-E719-444D-A78A-0654E0C5A3F9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CaptureSample/CaptureEngine.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "158"
+            endingLineNumber = "158"
+            landmarkName = "createFrame(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "41689CA1-AC26-4CDB-BB74-4B94AAB07B5D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CaptureSample/CaptureEngine.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "157"
+            endingLineNumber = "157"
+            landmarkName = "createFrame(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99BC8B4A-6B2E-4BB5-8E33-3E8EFC25941F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CaptureSample/CaptureEngine.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
+            landmarkName = "createFrame(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9BD327DE-D79D-4218-9486-1F4AAF11B368"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CaptureSample/CaptureEngine.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "videoCodec(_:didOutput:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9BD327DE-D79D-4218-9486-1F4AAF11B368 - d82ba4d8dfd06d76"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CaptureSample.CaptureEngineStreamOutput.videoCodec(_: CaptureSample.VideoCodec, didOutput: __C.CMSampleBufferRef) -&gt; ()"
+                  moduleName = "CaptureSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xuwei/work/mycode/CapturingScreenContentInMacOS/CaptureSample/CaptureEngine.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "9BD327DE-D79D-4218-9486-1F4AAF11B368 - d82ba4d8dfd06d55"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CaptureSample.CaptureEngineStreamOutput.videoCodec(_: CaptureSample.VideoCodec, didOutput: __C.CMSampleBufferRef) -&gt; ()"
+                  moduleName = "CaptureSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xuwei/work/mycode/CapturingScreenContentInMacOS/CaptureSample/CaptureEngine.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7168F57D-F72F-4EF9-ACEF-BBC0B2E526BA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CaptureSample/vme_wraper.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "-inputData:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7168F57D-F72F-4EF9-ACEF-BBC0B2E526BA - cc40ec8a21b3c7a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[vme_test inputData:]"
+                  moduleName = "CaptureSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xuwei/work/mycode/CapturingScreenContentInMacOS/CaptureSample/vme_wraper.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  uuid = "7168F57D-F72F-4EF9-ACEF-BBC0B2E526BA - cc40ec8a21b3ca5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[vme_test inputData:]"
+                  moduleName = "CaptureSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xuwei/work/mycode/CapturingScreenContentInMacOS/CaptureSample/vme_wraper.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "35">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DF654FD-CE69-43A4-B679-D5F189907348"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CaptureSample/vme_wraper.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "-inputData:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0DF654FD-CE69-43A4-B679-D5F189907348 - cc40ec8a21b3e6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[vme_test inputData:]"
+                  moduleName = "CaptureSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xuwei/work/mycode/CapturingScreenContentInMacOS/CaptureSample/vme_wraper.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "223">
+               </Location>
+               <Location
+                  uuid = "0DF654FD-CE69-43A4-B679-D5F189907348 - cc40ec8a21b3e6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[vme_test inputData:]"
+                  moduleName = "CaptureSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xuwei/work/mycode/CapturingScreenContentInMacOS/CaptureSample/vme_wraper.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "159">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6CF4900C-CDE2-43A2-AE3D-3E0615A65D20"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../code/vme/src/codec/XCodec.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "open(param, parcel)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C39CB620-7078-4FA6-A91F-E992EF6CC1E9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../code/vme/src/codec/XCodecCore.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "253"
+            endingLineNumber = "253"
+            landmarkName = "XCodecCore::open(param, codec_id, parcel)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

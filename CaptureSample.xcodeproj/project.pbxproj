@@ -25,6 +25,18 @@
 		4F45DE552ABC41D70060D05F /* Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F45DE4A2ABC41D70060D05F /* Atomic.swift */; };
 		4F45DE582ABD2B1A0060D05F /* VTDecompressionSession+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F45DE562ABD2B1A0060D05F /* VTDecompressionSession+Extension.swift */; };
 		4F45DE592ABD2B1A0060D05F /* VTCompressionSession+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F45DE572ABD2B1A0060D05F /* VTCompressionSession+Extension.swift */; };
+		4F45DE5C2ABD37E10060D05F /* vme_wraper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F45DE5B2ABD37E10060D05F /* vme_wraper.mm */; };
+		4F45DE662ABD419A0060D05F /* libavformat.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F45DE5E2ABD419A0060D05F /* libavformat.dylib */; };
+		4F45DE672ABD419A0060D05F /* libswresample.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F45DE5F2ABD419A0060D05F /* libswresample.dylib */; };
+		4F45DE682ABD419A0060D05F /* libavdevice.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F45DE602ABD419A0060D05F /* libavdevice.dylib */; };
+		4F45DE692ABD419A0060D05F /* libavutil.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F45DE612ABD419A0060D05F /* libavutil.dylib */; };
+		4F45DE6A2ABD419A0060D05F /* libavfilter.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F45DE622ABD419A0060D05F /* libavfilter.dylib */; };
+		4F45DE6B2ABD419A0060D05F /* libvme.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F45DE632ABD419A0060D05F /* libvme.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		4F45DE6C2ABD419A0060D05F /* libswscale.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F45DE642ABD419A0060D05F /* libswscale.dylib */; };
+		4F45DE6D2ABD419A0060D05F /* libavcodec.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F45DE652ABD419A0060D05F /* libavcodec.dylib */; };
+		4FC5863E2ABD676E00B076CD /* libvme.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 4F45DE632ABD419A0060D05F /* libvme.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4FC586422ABD689400B076CD /* libGLESv2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC586402ABD689400B076CD /* libGLESv2.dylib */; };
+		4FC586432ABD689400B076CD /* libEGL.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC586412ABD689400B076CD /* libEGL.dylib */; };
 		C44093732816EC8800FB8386 /* Synth.aif in Resources */ = {isa = PBXBuildFile; fileRef = C44093722816EC8800FB8386 /* Synth.aif */; };
 		C44093752816EC9C00FB8386 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44093742816EC9C00FB8386 /* AudioPlayer.swift */; };
 		C470F0812811C5CB00D29309 /* ScreenRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C470F0802811C5CB00D29309 /* ScreenRecorder.swift */; };
@@ -39,6 +51,20 @@
 		C4B0DAC0276BA4B50015082A /* CaptureEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B0DABD276BA4B50015082A /* CaptureEngine.swift */; };
 		C4EB90D428108656006A595C /* ConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EB90D328108656006A595C /* ConfigurationView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4FC5863F2ABD676E00B076CD /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4FC5863E2ABD676E00B076CD /* libvme.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4F45DE2D2ABC408F0060D05F /* VideoCodec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCodec.swift; sourceTree = "<group>"; };
@@ -59,6 +85,26 @@
 		4F45DE4A2ABC41D70060D05F /* Atomic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Atomic.swift; sourceTree = "<group>"; };
 		4F45DE562ABD2B1A0060D05F /* VTDecompressionSession+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VTDecompressionSession+Extension.swift"; sourceTree = "<group>"; };
 		4F45DE572ABD2B1A0060D05F /* VTCompressionSession+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VTCompressionSession+Extension.swift"; sourceTree = "<group>"; };
+		4F45DE5A2ABD37E00060D05F /* CaptureSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CaptureSample-Bridging-Header.h"; sourceTree = "<group>"; };
+		4F45DE5B2ABD37E10060D05F /* vme_wraper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = vme_wraper.mm; sourceTree = "<group>"; };
+		4F45DE5E2ABD419A0060D05F /* libavformat.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavformat.dylib; path = ../../code/vme/output/mac/Debug/lib/libavformat.dylib; sourceTree = "<group>"; };
+		4F45DE5F2ABD419A0060D05F /* libswresample.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswresample.dylib; path = ../../code/vme/output/mac/Debug/lib/libswresample.dylib; sourceTree = "<group>"; };
+		4F45DE602ABD419A0060D05F /* libavdevice.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavdevice.dylib; path = ../../code/vme/output/mac/Debug/lib/libavdevice.dylib; sourceTree = "<group>"; };
+		4F45DE612ABD419A0060D05F /* libavutil.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavutil.dylib; path = ../../code/vme/output/mac/Debug/lib/libavutil.dylib; sourceTree = "<group>"; };
+		4F45DE622ABD419A0060D05F /* libavfilter.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavfilter.dylib; path = ../../code/vme/output/mac/Debug/lib/libavfilter.dylib; sourceTree = "<group>"; };
+		4F45DE632ABD419A0060D05F /* libvme.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvme.dylib; path = ../../code/vme/output/mac/Debug/lib/libvme.dylib; sourceTree = "<group>"; };
+		4F45DE642ABD419A0060D05F /* libswscale.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswscale.dylib; path = ../../code/vme/output/mac/Debug/lib/libswscale.dylib; sourceTree = "<group>"; };
+		4F45DE652ABD419A0060D05F /* libavcodec.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavcodec.dylib; path = ../../code/vme/output/mac/Debug/lib/libavcodec.dylib; sourceTree = "<group>"; };
+		4F45DE6E2ABD42EA0060D05F /* libavcodec.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavcodec.dylib; path = ../../code/vme/output/mac/Debug/lib/libavcodec.dylib; sourceTree = "<group>"; };
+		4F45DE6F2ABD42EA0060D05F /* libavutil.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavutil.dylib; path = ../../code/vme/output/mac/Debug/lib/libavutil.dylib; sourceTree = "<group>"; };
+		4F45DE702ABD42EA0060D05F /* libswresample.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswresample.dylib; path = ../../code/vme/output/mac/Debug/lib/libswresample.dylib; sourceTree = "<group>"; };
+		4F45DE712ABD42EA0060D05F /* libavdevice.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavdevice.dylib; path = ../../code/vme/output/mac/Debug/lib/libavdevice.dylib; sourceTree = "<group>"; };
+		4F45DE722ABD42EA0060D05F /* libavformat.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavformat.dylib; path = ../../code/vme/output/mac/Debug/lib/libavformat.dylib; sourceTree = "<group>"; };
+		4F45DE732ABD42EA0060D05F /* libvme.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvme.dylib; path = ../../code/vme/output/mac/Debug/lib/libvme.dylib; sourceTree = "<group>"; };
+		4F45DE742ABD42EA0060D05F /* libswscale.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswscale.dylib; path = ../../code/vme/output/mac/Debug/lib/libswscale.dylib; sourceTree = "<group>"; };
+		4F45DE752ABD42EA0060D05F /* libavfilter.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavfilter.dylib; path = ../../code/vme/output/mac/Debug/lib/libavfilter.dylib; sourceTree = "<group>"; };
+		4FC586402ABD689400B076CD /* libGLESv2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLESv2.dylib; path = "../../code/3rd-parties/vendors/angle/mac/universal/libGLESv2.dylib"; sourceTree = "<group>"; };
+		4FC586412ABD689400B076CD /* libEGL.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libEGL.dylib; path = "../../code/3rd-parties/vendors/angle/mac/universal/libEGL.dylib"; sourceTree = "<group>"; };
 		7C6C99F1D4B6E3EBA3A7B7DF /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		8D89E0E7125AFE6B4E2E6500 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9AEEB9169F5D7FC75E6B35A2 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
@@ -84,6 +130,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FC586422ABD689400B076CD /* libGLESv2.dylib in Frameworks */,
+				4FC586432ABD689400B076CD /* libEGL.dylib in Frameworks */,
+				4F45DE6B2ABD419A0060D05F /* libvme.dylib in Frameworks */,
+				4F45DE662ABD419A0060D05F /* libavformat.dylib in Frameworks */,
+				4F45DE672ABD419A0060D05F /* libswresample.dylib in Frameworks */,
+				4F45DE682ABD419A0060D05F /* libavdevice.dylib in Frameworks */,
+				4F45DE692ABD419A0060D05F /* libavutil.dylib in Frameworks */,
+				4F45DE6A2ABD419A0060D05F /* libavfilter.dylib in Frameworks */,
+				4F45DE6C2ABD419A0060D05F /* libswscale.dylib in Frameworks */,
+				4F45DE6D2ABD419A0060D05F /* libavcodec.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +178,23 @@
 			path = Util;
 			sourceTree = "<group>";
 		};
+		4F45DE5D2ABD419A0060D05F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FC586412ABD689400B076CD /* libEGL.dylib */,
+				4FC586402ABD689400B076CD /* libGLESv2.dylib */,
+				4F45DE652ABD419A0060D05F /* libavcodec.dylib */,
+				4F45DE602ABD419A0060D05F /* libavdevice.dylib */,
+				4F45DE622ABD419A0060D05F /* libavfilter.dylib */,
+				4F45DE5E2ABD419A0060D05F /* libavformat.dylib */,
+				4F45DE612ABD419A0060D05F /* libavutil.dylib */,
+				4F45DE5F2ABD419A0060D05F /* libswresample.dylib */,
+				4F45DE642ABD419A0060D05F /* libswscale.dylib */,
+				4F45DE632ABD419A0060D05F /* libvme.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		58C6EBE29CE5FC0542EA3228 /* LICENSE */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,11 +225,20 @@
 		C4B0DA9E276BA4460015082A = {
 			isa = PBXGroup;
 			children = (
+				4F45DE6E2ABD42EA0060D05F /* libavcodec.dylib */,
+				4F45DE712ABD42EA0060D05F /* libavdevice.dylib */,
+				4F45DE752ABD42EA0060D05F /* libavfilter.dylib */,
+				4F45DE722ABD42EA0060D05F /* libavformat.dylib */,
+				4F45DE6F2ABD42EA0060D05F /* libavutil.dylib */,
+				4F45DE702ABD42EA0060D05F /* libswresample.dylib */,
+				4F45DE742ABD42EA0060D05F /* libswscale.dylib */,
+				4F45DE732ABD42EA0060D05F /* libvme.dylib */,
 				8D89E0E7125AFE6B4E2E6500 /* README.md */,
 				C4B0DAA9276BA4460015082A /* CaptureSample */,
 				C4B0DAA8276BA4460015082A /* Products */,
 				CFC39354E2BF335FE5D2CDFE /* Configuration */,
 				58C6EBE29CE5FC0542EA3228 /* LICENSE */,
+				4F45DE5D2ABD419A0060D05F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -184,6 +266,8 @@
 				C4B0DAAE276BA4480015082A /* Assets.xcassets */,
 				C4B0DAB3276BA4480015082A /* CaptureSample.entitlements */,
 				C4B0DAB0276BA4480015082A /* Preview Content */,
+				4F45DE5B2ABD37E10060D05F /* vme_wraper.mm */,
+				4F45DE5A2ABD37E00060D05F /* CaptureSample-Bridging-Header.h */,
 			);
 			path = CaptureSample;
 			sourceTree = "<group>";
@@ -214,6 +298,7 @@
 				C4B0DAA3276BA4460015082A /* Sources */,
 				C4B0DAA4276BA4460015082A /* Frameworks */,
 				C4B0DAA5276BA4460015082A /* Resources */,
+				4FC5863F2ABD676E00B076CD /* Embed Libraries */,
 			);
 			buildRules = (
 			);
@@ -237,7 +322,7 @@
 				TargetAttributes = {
 					C4B0DAA6276BA4460015082A = {
 						CreatedOnToolsVersion = 13.3;
-						LastSwiftMigration = 1330;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -300,6 +385,7 @@
 				4F45DE542ABC41D70060D05F /* DataBuffer.swift in Sources */,
 				C4B0DABE276BA4B50015082A /* ContentView.swift in Sources */,
 				4F45DE582ABD2B1A0060D05F /* VTDecompressionSession+Extension.swift in Sources */,
+				4F45DE5C2ABD37E10060D05F /* vme_wraper.mm in Sources */,
 				C471DFFB2809F440001D24C9 /* PowerMeter.swift in Sources */,
 				4F45DE3D2ABC408F0060D05F /* VTSessionOption.swift in Sources */,
 				4F45DE4D2ABC41D70060D05F /* DeviceUtil.swift in Sources */,
@@ -345,6 +431,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -368,6 +455,11 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-L",
+					/Users/xuwei/work/code/vme/src/codec,
+				);
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS) ";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -409,6 +501,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -425,6 +518,11 @@
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_CFLAGS = (
+					"-L",
+					/Users/xuwei/work/code/vme/src/codec,
+				);
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS) ";
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -440,7 +538,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = CaptureSample/CaptureSample.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -450,17 +550,33 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = /Users/xuwei/work/code/vme/src/codec;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
+					"@executable_path/",
+					/Users/xuwei/work/code/vme/output/mac/Debug/lib,
+					"/Users/xuwei/work/code/3rd-parties/vendors/angle/mac/universal",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/Users/xuwei/work/code/vme/output/mac/Debug/lib,
+					"/Users/xuwei/work/code/3rd-parties/vendors/angle/mac/universal",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = (
+					"-I",
+					/Users/xuwei/work/code/vme/src/codec,
+					"-L/Users/xuwei/work/code/vme/output/mac/Debug/lib",
+					"-lvme",
+				);
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS) ";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.CaptureSample${SAMPLE_CODE_DISAMBIGUATOR}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CaptureSample/CaptureSample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -474,7 +590,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = CaptureSample/CaptureSample.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -484,17 +602,33 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = /Users/xuwei/work/code/vme/src/codec;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
+					"@executable_path/",
+					/Users/xuwei/work/code/vme/output/mac/Debug/lib,
+					"/Users/xuwei/work/code/3rd-parties/vendors/angle/mac/universal",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/Users/xuwei/work/code/vme/output/mac/Debug/lib,
+					"/Users/xuwei/work/code/3rd-parties/vendors/angle/mac/universal",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = (
+					"-I",
+					/Users/xuwei/work/code/vme/src/codec,
+					"-L/Users/xuwei/work/code/vme/output/mac/Debug/lib",
+					"-lvme",
+				);
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS) ";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.CaptureSample${SAMPLE_CODE_DISAMBIGUATOR}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CaptureSample/CaptureSample-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

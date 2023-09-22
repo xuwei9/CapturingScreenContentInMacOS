@@ -26,7 +26,7 @@ struct CapturedFrame {
 class CaptureEngine: NSObject, @unchecked Sendable {
     
     private let logger = Logger()
-    let codec = VideoCodec()
+
     
     private var stream: SCStream?
     private let videoSampleBufferQueue = DispatchQueue(label: "com.example.apple-samplecode.VideoSampleBufferQueue")
@@ -82,8 +82,28 @@ class CaptureEngine: NSObject, @unchecked Sendable {
 }
 
 /// A class that handles output from an SCStream, and handles stream errors.
-private class CaptureEngineStreamOutput: NSObject, SCStreamOutput, SCStreamDelegate {
+private class CaptureEngineStreamOutput: NSObject, SCStreamOutput, SCStreamDelegate,VideoCodecDelegate {
+    func videoCodec(_ codec: VideoCodec, didOutput formatDescription: CMFormatDescription?) {
+        return
+    }
     
+    func videoCodec(_ codec: VideoCodec, didOutput sampleBuffer: CMSampleBuffer) {
+        
+        return
+    }
+    
+    func videoCodec(_ codec: VideoCodec, errorOccurred error: VideoCodec.Error) {
+    
+        return
+    }
+    
+    func videoCodecWillDropFame(_ codec: VideoCodec) -> Bool {
+        return false
+    }
+    
+    
+    let codec = VideoCodec()
+    let test = vme_test()
     var pcmBufferHandler: ((AVAudioPCMBuffer) -> Void)?
     var capturedFrameHandler: ((CapturedFrame) -> Void)?
     
@@ -92,6 +112,7 @@ private class CaptureEngineStreamOutput: NSObject, SCStreamOutput, SCStreamDeleg
     
     init(continuation: AsyncThrowingStream<CapturedFrame, Error>.Continuation?) {
         self.continuation = continuation
+
     }
     
     /// - Tag: DidOutputSampleBuffer
@@ -130,6 +151,16 @@ private class CaptureEngineStreamOutput: NSObject, SCStreamOutput, SCStreamDeleg
         
         // Get the pixel buffer that contains the image data.
         guard let pixelBuffer = sampleBuffer.imageBuffer else { return nil }
+        let presentationTimeStamp = CMSampleBufferGetPresentationTimeStamp(sampleBuffer);
+        let duration = CMSampleBufferGetDuration(sampleBuffer)
+        if(codec.delegate == nil)
+        {
+            codec.delegate = self
+            codec.startRunning()
+        }
+        test.inputData(pixelBuffer)
+
+        //codec.appendImageBuffer(pixelBuffer, presentationTimeStamp: presentationTimeStamp, duration: duration)
         
         // Get the backing IOSurface.
         guard let surfaceRef = CVPixelBufferGetIOSurface(pixelBuffer)?.takeUnretainedValue() else { return nil }
