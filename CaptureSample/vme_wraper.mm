@@ -9,10 +9,13 @@
 
 #import "CaptureSample-Bridging-Header.h"
 #import "XCodec.h"
+#import <stdio.h>
 
 
 bool bInit = false;
+FILE* file;
 XCodec* codec;
+long long pts = 0;
 @implementation vme_test
 
 
@@ -35,8 +38,39 @@ XCodec* codec;
         {
             xcodec_open(codec, &param);
         }
+        bInit = true;
     }
+    XFrame frame;
+    frame.width = width;
+    frame.height = height;
+    frame.hardwareBuffer = data;
+    frame.pts =pts;
+    pts+=33*1000;
+    CFRetain(data);
+    int ret =xcodec_send_frame(codec, &frame);
+    if(ret== 0)
+    {
+        printf("xcodec_send_frame success!\n");
+    }
+    //CFRetain(data);
+    //CFRelease(data);
     
+    XPacket packet;
+    ret = xcodec_recv_packet(codec, &packet);
+    if(ret == 0)
+    {
+        printf("packet size = %d\n", packet.size);
+        if(file == NULL)
+        {
+            file = fopen("xxx.h264","wb");
+        }
+        
+        if(file != NULL)
+        {
+            fwrite(packet.data, packet.size, 1, file);
+        }
+    }
+
     
     
 }
