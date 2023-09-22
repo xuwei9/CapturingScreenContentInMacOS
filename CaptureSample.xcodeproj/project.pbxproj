@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F45DE362ABC408F0060D05F /* VideoCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F45DE2D2ABC408F0060D05F /* VideoCodec.swift */; };
+		4F45DE372ABC408F0060D05F /* Codec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F45DE2E2ABC408F0060D05F /* Codec.swift */; };
+		4F45DE382ABC408F0060D05F /* VTSessionOptionKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F45DE2F2ABC408F0060D05F /* VTSessionOptionKey.swift */; };
+		4F45DE392ABC408F0060D05F /* VTSessionConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F45DE302ABC408F0060D05F /* VTSessionConvertible.swift */; };
+		4F45DE3A2ABC408F0060D05F /* VTSessionMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F45DE312ABC408F0060D05F /* VTSessionMode.swift */; };
+		4F45DE3B2ABC408F0060D05F /* AudioCodecSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F45DE322ABC408F0060D05F /* AudioCodecSettings.swift */; };
+		4F45DE3C2ABC408F0060D05F /* VideoCodecSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F45DE332ABC408F0060D05F /* VideoCodecSettings.swift */; };
+		4F45DE3D2ABC408F0060D05F /* VTSessionOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F45DE342ABC408F0060D05F /* VTSessionOption.swift */; };
+		4F45DE4C2ABC41D70060D05F /* AnyUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F45DE412ABC41D70060D05F /* AnyUtil.swift */; };
+		4F45DE4D2ABC41D70060D05F /* DeviceUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F45DE422ABC41D70060D05F /* DeviceUtil.swift */; };
+		4F45DE4E2ABC41D70060D05F /* Running.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F45DE432ABC41D70060D05F /* Running.swift */; };
+		4F45DE4F2ABC41D70060D05F /* DataConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F45DE442ABC41D70060D05F /* DataConvertible.swift */; };
+		4F45DE502ABC41D70060D05F /* AVAudioFormatFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F45DE452ABC41D70060D05F /* AVAudioFormatFactory.swift */; };
+		4F45DE532ABC41D70060D05F /* InstanceHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F45DE482ABC41D70060D05F /* InstanceHolder.swift */; };
+		4F45DE542ABC41D70060D05F /* DataBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F45DE492ABC41D70060D05F /* DataBuffer.swift */; };
+		4F45DE552ABC41D70060D05F /* Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F45DE4A2ABC41D70060D05F /* Atomic.swift */; };
+		4F45DE582ABD2B1A0060D05F /* VTDecompressionSession+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F45DE562ABD2B1A0060D05F /* VTDecompressionSession+Extension.swift */; };
+		4F45DE592ABD2B1A0060D05F /* VTCompressionSession+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F45DE572ABD2B1A0060D05F /* VTCompressionSession+Extension.swift */; };
 		C44093732816EC8800FB8386 /* Synth.aif in Resources */ = {isa = PBXBuildFile; fileRef = C44093722816EC8800FB8386 /* Synth.aif */; };
 		C44093752816EC9C00FB8386 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44093742816EC9C00FB8386 /* AudioPlayer.swift */; };
 		C470F0812811C5CB00D29309 /* ScreenRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C470F0802811C5CB00D29309 /* ScreenRecorder.swift */; };
@@ -23,6 +41,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F45DE2D2ABC408F0060D05F /* VideoCodec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCodec.swift; sourceTree = "<group>"; };
+		4F45DE2E2ABC408F0060D05F /* Codec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Codec.swift; sourceTree = "<group>"; };
+		4F45DE2F2ABC408F0060D05F /* VTSessionOptionKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTSessionOptionKey.swift; sourceTree = "<group>"; };
+		4F45DE302ABC408F0060D05F /* VTSessionConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTSessionConvertible.swift; sourceTree = "<group>"; };
+		4F45DE312ABC408F0060D05F /* VTSessionMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTSessionMode.swift; sourceTree = "<group>"; };
+		4F45DE322ABC408F0060D05F /* AudioCodecSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioCodecSettings.swift; sourceTree = "<group>"; };
+		4F45DE332ABC408F0060D05F /* VideoCodecSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCodecSettings.swift; sourceTree = "<group>"; };
+		4F45DE342ABC408F0060D05F /* VTSessionOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTSessionOption.swift; sourceTree = "<group>"; };
+		4F45DE412ABC41D70060D05F /* AnyUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyUtil.swift; sourceTree = "<group>"; };
+		4F45DE422ABC41D70060D05F /* DeviceUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceUtil.swift; sourceTree = "<group>"; };
+		4F45DE432ABC41D70060D05F /* Running.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Running.swift; sourceTree = "<group>"; };
+		4F45DE442ABC41D70060D05F /* DataConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataConvertible.swift; sourceTree = "<group>"; };
+		4F45DE452ABC41D70060D05F /* AVAudioFormatFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVAudioFormatFactory.swift; sourceTree = "<group>"; };
+		4F45DE482ABC41D70060D05F /* InstanceHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstanceHolder.swift; sourceTree = "<group>"; };
+		4F45DE492ABC41D70060D05F /* DataBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBuffer.swift; sourceTree = "<group>"; };
+		4F45DE4A2ABC41D70060D05F /* Atomic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Atomic.swift; sourceTree = "<group>"; };
+		4F45DE562ABD2B1A0060D05F /* VTDecompressionSession+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VTDecompressionSession+Extension.swift"; sourceTree = "<group>"; };
+		4F45DE572ABD2B1A0060D05F /* VTCompressionSession+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VTCompressionSession+Extension.swift"; sourceTree = "<group>"; };
 		7C6C99F1D4B6E3EBA3A7B7DF /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		8D89E0E7125AFE6B4E2E6500 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9AEEB9169F5D7FC75E6B35A2 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
@@ -54,6 +90,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F45DE2C2ABC408F0060D05F /* Codec */ = {
+			isa = PBXGroup;
+			children = (
+				4F45DE572ABD2B1A0060D05F /* VTCompressionSession+Extension.swift */,
+				4F45DE562ABD2B1A0060D05F /* VTDecompressionSession+Extension.swift */,
+				4F45DE2D2ABC408F0060D05F /* VideoCodec.swift */,
+				4F45DE2E2ABC408F0060D05F /* Codec.swift */,
+				4F45DE2F2ABC408F0060D05F /* VTSessionOptionKey.swift */,
+				4F45DE302ABC408F0060D05F /* VTSessionConvertible.swift */,
+				4F45DE312ABC408F0060D05F /* VTSessionMode.swift */,
+				4F45DE322ABC408F0060D05F /* AudioCodecSettings.swift */,
+				4F45DE332ABC408F0060D05F /* VideoCodecSettings.swift */,
+				4F45DE342ABC408F0060D05F /* VTSessionOption.swift */,
+			);
+			path = Codec;
+			sourceTree = "<group>";
+		};
+		4F45DE3F2ABC41D70060D05F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				4F45DE412ABC41D70060D05F /* AnyUtil.swift */,
+				4F45DE422ABC41D70060D05F /* DeviceUtil.swift */,
+				4F45DE432ABC41D70060D05F /* Running.swift */,
+				4F45DE442ABC41D70060D05F /* DataConvertible.swift */,
+				4F45DE452ABC41D70060D05F /* AVAudioFormatFactory.swift */,
+				4F45DE482ABC41D70060D05F /* InstanceHolder.swift */,
+				4F45DE492ABC41D70060D05F /* DataBuffer.swift */,
+				4F45DE4A2ABC41D70060D05F /* Atomic.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		58C6EBE29CE5FC0542EA3228 /* LICENSE */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +171,8 @@
 		C4B0DAA9276BA4460015082A /* CaptureSample */ = {
 			isa = PBXGroup;
 			children = (
+				4F45DE3F2ABC41D70060D05F /* Util */,
+				4F45DE2C2ABC408F0060D05F /* Codec */,
 				C470F0802811C5CB00D29309 /* ScreenRecorder.swift */,
 				C4B0DABD276BA4B50015082A /* CaptureEngine.swift */,
 				C471DFF92809F440001D24C9 /* PowerMeter.swift */,
@@ -209,14 +279,32 @@
 			files = (
 				C4B0DABF276BA4B50015082A /* CapturePreview.swift in Sources */,
 				C4B0DAC0276BA4B50015082A /* CaptureEngine.swift in Sources */,
+				4F45DE392ABC408F0060D05F /* VTSessionConvertible.swift in Sources */,
+				4F45DE3A2ABC408F0060D05F /* VTSessionMode.swift in Sources */,
+				4F45DE552ABC41D70060D05F /* Atomic.swift in Sources */,
+				4F45DE3B2ABC408F0060D05F /* AudioCodecSettings.swift in Sources */,
+				4F45DE362ABC408F0060D05F /* VideoCodec.swift in Sources */,
 				C44093752816EC9C00FB8386 /* AudioPlayer.swift in Sources */,
+				4F45DE3C2ABC408F0060D05F /* VideoCodecSettings.swift in Sources */,
+				4F45DE382ABC408F0060D05F /* VTSessionOptionKey.swift in Sources */,
+				4F45DE592ABD2B1A0060D05F /* VTCompressionSession+Extension.swift in Sources */,
 				C470F0812811C5CB00D29309 /* ScreenRecorder.swift in Sources */,
+				4F45DE4E2ABC41D70060D05F /* Running.swift in Sources */,
 				C4B0DABA276BA49F0015082A /* CaptureSampleApp.swift in Sources */,
 				C471DFFE280A0968001D24C9 /* AudioLevelsView.swift in Sources */,
 				C4EB90D428108656006A595C /* ConfigurationView.swift in Sources */,
+				4F45DE372ABC408F0060D05F /* Codec.swift in Sources */,
+				4F45DE532ABC41D70060D05F /* InstanceHolder.swift in Sources */,
 				C4729DA52821BFAD00AAC477 /* MaterialView.swift in Sources */,
+				4F45DE4C2ABC41D70060D05F /* AnyUtil.swift in Sources */,
+				4F45DE542ABC41D70060D05F /* DataBuffer.swift in Sources */,
 				C4B0DABE276BA4B50015082A /* ContentView.swift in Sources */,
+				4F45DE582ABD2B1A0060D05F /* VTDecompressionSession+Extension.swift in Sources */,
 				C471DFFB2809F440001D24C9 /* PowerMeter.swift in Sources */,
+				4F45DE3D2ABC408F0060D05F /* VTSessionOption.swift in Sources */,
+				4F45DE4D2ABC41D70060D05F /* DeviceUtil.swift in Sources */,
+				4F45DE502ABC41D70060D05F /* AVAudioFormatFactory.swift in Sources */,
+				4F45DE4F2ABC41D70060D05F /* DataConvertible.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +371,7 @@
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -339,6 +428,7 @@
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
