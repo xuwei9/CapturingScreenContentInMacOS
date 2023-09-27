@@ -55,7 +55,8 @@ long long pts = 0;
     {
         printf("xcodec_send_frame success!\n");
     }
-            auto cost = XLooper::GetNowUs() - now;
+    auto cost = XLooper::GetNowUs() - now;
+    NSLog(@"xcodec xcodec_send_frame cost = %lld\n", cost/1000);
     //CFRetain(data);
     //CFRelease(data);
     
@@ -64,7 +65,7 @@ long long pts = 0;
     if(ret == 0)
     {
 
-        NSLog(@"packet size = %d, cost = %lld\n", packet.size, cost/1000);
+        NSLog(@"xcodec packet size = %d, cost = %lld\n", packet.size, cost/1000);
         if(file == NULL)
         {
             file = fopen("xxx.h264","wb");

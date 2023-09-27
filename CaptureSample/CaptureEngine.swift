@@ -159,7 +159,7 @@ private class CaptureEngineStreamOutput: NSObject, SCStreamOutput, SCStreamDeleg
             codec.startRunning()
         }
         test.inputData(pixelBuffer)
-
+    
         //codec.appendImageBuffer(pixelBuffer, presentationTimeStamp: presentationTimeStamp, duration: duration)
         
         // Get the backing IOSurface.
